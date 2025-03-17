@@ -12,3 +12,4 @@ pytest = "*"
 cdktf-cdktf-provider-aws = "~=19.57.0"
 
 [dev-packages]
+ruff = "*"
