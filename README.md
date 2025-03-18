@@ -32,7 +32,7 @@ aws configure
 
 This will create a credentials file under `~/.aws/`. The project is configured to use the `us-east-1` region.
 
-By default, the bucket policy is configured to only allow traffic to the IP address specified in `main.py`. Fetch your [IP address](https://www.whatismyip.com) and replace it in the `access_ip_address` variable.
+By default, the Web ACL is configured to only allow traffic to the IP address specified in `main.py`. Fetch your [IP address](https://www.whatismyip.com) and replace it in the `access_ip_address` variable.
 
 Install pip dependencies with:
 ```
